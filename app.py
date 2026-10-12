@@ -359,16 +359,7 @@ with col2:
         '<div class="fg-card-footer">MODULE STATUS · OPEN EXPLORER TO BEGIN</div>',
         unsafe_allow_html=True,
     )
-
-# st.markdown(
-#     """
-#     <div class="fg-footer">
-#         <span>FLAMEGUARD · MICROGRAVITY RESEARCH INTERFACE</span>
-#         <span>DATA-DRIVEN EXPLORATION · NO PREDICTIVE CLASSIFICATION</span>
-#     </div>
-#     """,
-#     unsafe_allow_html=True,
-# )
+    
 
 with col3:
     st.markdown(
