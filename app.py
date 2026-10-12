@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Add your AI chatbot URL here later. Example: "http://192.168.29.164:8503"
+AI_CHATBOT_URL = "http://192.168.29.164:8501"
+
 st.set_page_config(
     page_title="Flame.ai | Mission Control",
     page_icon="🔥",
@@ -356,6 +359,58 @@ with col2:
         '<div class="fg-card-footer">MODULE STATUS · OPEN EXPLORER TO BEGIN</div>',
         unsafe_allow_html=True,
     )
+
+st.markdown(
+    """
+    <div class="fg-footer">
+        <span>FLAMEGUARD · MICROGRAVITY RESEARCH INTERFACE</span>
+        <span>DATA-DRIVEN EXPLORATION · NO PREDICTIVE CLASSIFICATION</span>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+with col3:
+    st.markdown(
+        """
+        <div class="fg-card">
+            <div class="fg-card-code">AI MODULE / CHAT-03</div>
+            <div class="fg-card-icon">✦</div>
+            <h2>AI Assistant</h2>
+            <p>
+                Ask questions and discuss combustion research with AI.
+                Export your conversations so you can keep useful answers
+                and refer to them later.
+            </p>
+            <div class="fg-card-meta">
+                <span class="fg-meta-pill">AI CHAT</span>
+                <span class="fg-meta-pill">ASK QUESTIONS</span>
+                <span class="fg-meta-pill">EXPORT CHAT</span>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    if AI_CHATBOT_URL.strip():
+        st.link_button(
+            "Launch AI Assistant  ↗",
+            AI_CHATBOT_URL.strip(),
+            use_container_width=True,
+        )
+        st.markdown(
+            '<div class="fg-card-footer">MODULE STATUS · AI ASSISTANT READY</div>',
+            unsafe_allow_html=True,
+        )
+    else:
+        st.button(
+            "Add chatbot URL to activate",
+            disabled=True,
+            use_container_width=True,
+        )
+        st.markdown(
+            '<div class="fg-card-footer">MODULE STATUS · URL NOT CONFIGURED</div>',
+            unsafe_allow_html=True,
+        )
 
 st.markdown(
     """
