@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="FlameGuard | Mission Control",
+    page_title="Flame.ai | Mission Control",
     page_icon="🔥",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -268,13 +268,13 @@ st.markdown(
 st.markdown(
     """
     <div class="fg-topline">
-        <span>FLAMEGUARD / RESEARCH SYSTEMS</span>
+        <span>Flame.ai / RESEARCH SYSTEMS</span>
         <span class="fg-status"><span class="fg-dot"></span> SYSTEMS READY</span>
     </div>
 
     <section class="fg-hero">
         <div class="fg-eyebrow">MICROGRAVITY COMBUSTION RESEARCH</div>
-        <h1 class="fg-brand">FLAME<span>GUARD</span></h1>
+        <h1 class="fg-brand">FLAME.<span>AI</span></h1>
         <p class="center-text">
             Mission control for exploring combustion experiments in space.
             Search original NASA research records, inspect measurements,
