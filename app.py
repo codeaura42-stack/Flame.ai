@@ -319,7 +319,7 @@ with col1:
     )
     st.link_button(
         "Launch FLEX Explorer  ↗",
-        "http://192.168.29.164:8502",
+        "https://flameai-nve7syek9yyknbvexatffg.streamlit.app",
         use_container_width=True,
     )
     st.markdown(
@@ -349,7 +349,7 @@ with col2:
     )
     st.link_button(
         "Launch BASS-II Explorer  ↗",
-        "http://192.168.29.164:8501",
+        "https://flameai-ck9m8vksedfbicjypmmvjw.streamlit.app",
         use_container_width=True,
     )
     st.markdown(
