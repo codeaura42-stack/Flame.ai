@@ -298,7 +298,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-col1, col2 = st.columns(2, gap="large")
+col1, col2, col3 = st.columns(3, gap="medium")
 
 with col1:
     st.markdown(
