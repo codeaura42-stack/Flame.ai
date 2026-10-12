@@ -11,7 +11,7 @@ import plotly.express as px
 # --------------------------------------------------
 
 st.set_page_config(
-    page_title="FlameGuard | FLEX Explorer",
+    page_title="Flame.ai | FLEX Explorer",
     page_icon="🔥",
     layout="wide",
 )
@@ -121,7 +121,7 @@ def numeric_filter(data, column, label, include_missing=True):
 # 4. DASHBOARD HEADER
 # --------------------------------------------------
 
-st.title("🔥 FlameGuard")
+st.title("🔥 Flame.ai")
 st.subheader("FLEX Experiment Explorer")
 
 st.write(
