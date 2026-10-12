@@ -9,7 +9,7 @@ import streamlit as st
 # --------------------------------------------------
 
 st.set_page_config(
-    page_title="FlameGuard | BASS Explorer",
+    page_title="Flame.ai | BASS Explorer",
     page_icon="🔥",
     layout="wide",
 )
@@ -156,7 +156,7 @@ def display_value(value):
 # 5. DASHBOARD HEADER
 # --------------------------------------------------
 
-st.title("🔥 FlameGuard")
+st.title("🔥 Flame.ai")
 st.subheader("BASS Experiment Explorer")
 
 st.write(
