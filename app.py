@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Add your AI chatbot URL here later. Example: "http://192.168.29.164:8503"
-AI_CHATBOT_URL = "http://192.168.29.164:8501"
+AI_CHATBOT_URL = "https://flameai-72ygm2nu6dnenktu5qdxzk.streamlit.app"
 
 st.set_page_config(
     page_title="Flame.ai | Mission Control",
